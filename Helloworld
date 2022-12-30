@@ -1,0 +1,6 @@
+Function sayhello{
+Param(
+[string]$hello=”Hello”
+)
+Write-output “$hello”
+}
